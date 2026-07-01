@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meyyarasan M — Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Meyyarasan M, Computer Science & Business Systems student and full-stack web developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Custom cursor ledger-stamp dot (decorative, desktop only via CSS) -->
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">MM<span class="nav-mark-dot">.</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile" id="navMobile" aria-label="Mobile">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="ledger-bg" aria-hidden="true">
+      <div class="ledger-line"></div>
+      <div class="ledger-line"></div>
+      <div class="ledger-line"></div>
+      <div class="ledger-line"></div>
+      <div class="ledger-line"></div>
+    </div>
+
+    <div class="hero-inner">
+      <p class="hero-eyebrow">
+        <span class="eyebrow-tag">LEDGER ENTRY №01</span>
+        <span class="eyebrow-date" id="heroDate">Salem, Tamil Nadu</span>
+      </p>
+
+      <h1 class="hero-title">
+        <span class="hero-title-line">Meyyarasan M.</span>
+        <span class="hero-title-line hero-title-accent">Balancing code<br>with clean design.</span>
+      </h1>
+
+      <p class="hero-sub">
+        Computer Science &amp; Business Systems student building full‑stack
+        web applications with <span class="hl">React</span>, <span class="hl">Node.js</span> and
+        <span class="hl">MongoDB</span> — turning manual, paper‑ledger problems into
+        clean digital systems.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span>View Projects</span>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H4M11 3V10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <span class="meta-num">2029</span>
+          <span class="meta-label">Expected Graduation</span>
+        </div>
+        <div class="hero-meta-divider" aria-hidden="true"></div>
+        <div class="hero-meta-item">
+          <span class="meta-num">82%</span>
+          <span class="meta-label">Higher Secondary</span>
+        </div>
+        <div class="hero-meta-divider" aria-hidden="true"></div>
+        <div class="hero-meta-item">
+          <span class="meta-num">01</span>
+          <span class="meta-label">Featured Project</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span>Scroll</span>
+      <span class="scroll-cue-line"></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section-head reveal">
+      <span class="section-tag">// about</span>
+      <h2 class="section-title">The short version</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="avatar-mark" aria-hidden="true">MM</div>
+        <p class="about-text">
+          I'm a Computer Science &amp; Business Systems student at the
+          <strong>Knowledge Institute of Technology</strong>, Salem — training at the
+          intersection of software engineering and business logic. I like
+          building applications that replace messy, manual processes with
+          something simple and dependable.
+        </p>
+        <p class="about-text">
+          Outside of coursework, I write technical papers on artificial
+          intelligence and edit video for fun — two habits that both come
+          down to the same thing: cutting the unnecessary and keeping what
+          matters.
+        </p>
+      </div>
+
+      <div class="about-side reveal">
+        <div class="info-row">
+          <span class="info-label">Location</span>
+          <span class="info-value">Salem, Tamil Nadu, IN</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Degree</span>
+          <span class="info-value">B.Tech CS &amp; Business Systems</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Institute</span>
+          <span class="info-value">Knowledge Institute of Technology</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Timeline</span>
+          <span class="info-value">2025 – 2029 (Expected)</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Focus</span>
+          <span class="info-value">Full-Stack Web Development</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="section-head reveal">
+      <span class="section-tag">// skills</span>
+      <h2 class="section-title">What I work with</h2>
+    </div>
+
+    <div class="ledger-table reveal">
+      <div class="ledger-row ledger-head">
+        <span>Category</span>
+        <span>Stack</span>
+        <span class="ledger-status-head">Comfort</span>
+      </div>
+
+      <div class="ledger-row" data-level="72">
+        <span class="ledger-cat">Languages</span>
+        <span class="ledger-items">Python · C++</span>
+        <span class="ledger-bar"><i></i></span>
+      </div>
+      <div class="ledger-row" data-level="90">
+        <span class="ledger-cat">Web</span>
+        <span class="ledger-items">HTML · CSS · JavaScript · React.js · Node.js · Bootstrap</span>
+        <span class="ledger-bar"><i></i></span>
+      </div>
+      <div class="ledger-row" data-level="80">
+        <span class="ledger-cat">Database</span>
+        <span class="ledger-items">MongoDB</span>
+        <span class="ledger-bar"><i></i></span>
+      </div>
+      <div class="ledger-row" data-level="85">
+        <span class="ledger-cat">Tools</span>
+        <span class="ledger-items">Git · VS Code · Microsoft Excel</span>
+        <span class="ledger-bar"><i></i></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="section-head reveal">
+      <span class="section-tag">// projects</span>
+      <h2 class="section-title">Featured work</h2>
+    </div>
+
+    <article class="project-card reveal">
+      <div class="project-card-top">
+        <div>
+          <span class="project-kicker">Personal Project</span>
+          <h3 class="project-title">Smart Credit Management System</h3>
+        </div>
+        <div class="project-stack" aria-label="Tech stack">
+          <span>React.js</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>CSS</span>
+        </div>
+      </div>
+
+      <ul class="project-list">
+        <li>Built a full-stack web application for small business owners to manage customer credit records digitally, replacing manual ledgers.</li>
+        <li>Implemented automated deadline alerts to notify shop owners when customer repayment dates are approaching.</li>
+        <li>Designed a responsive, intuitive UI with React.js and CSS, optimized for non-technical users.</li>
+        <li>Developed RESTful backend APIs with Node.js and integrated MongoDB for efficient data storage and retrieval.</li>
+      </ul>
+
+      <div class="project-footer">
+        <span class="project-note">Currently a solo build — case study write-up in progress.</span>
+      </div>
+    </article>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section achievements" id="achievements">
+    <div class="section-head reveal">
+      <span class="section-tag">// achievements</span>
+      <h2 class="section-title">Beyond the code</h2>
+    </div>
+
+    <div class="achieve-grid">
+      <div class="achieve-card reveal">
+        <svg class="achieve-icon" width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 4h14v11l-4 4H4V4z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M7.5 8h7M7.5 11.5h7M7.5 15h3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <h3>Technical Paper Presentations</h3>
+        <p>Presented twice on the usage of Artificial Intelligence at college-level technical symposiums, sharpening research and public communication skills.</p>
+      </div>
+
+      <div class="achieve-card reveal">
+        <svg class="achieve-icon" width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="8" r="5" stroke="currentColor" stroke-width="1.4"/><path d="M7 12.5L5.5 19l5.5-3 5.5 3-1.5-6.5" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        <h3>Analytical Communication</h3>
+        <p>Demonstrated strong research, analytical, and public communication skills through academic paper presentations.</p>
+      </div>
+
+      <div class="achieve-card reveal">
+        <svg class="achieve-icon" width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 15l5-9 4 6 3-4 2 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 18h14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <h3>Video Editing</h3>
+        <p>Pursues video editing as a creative hobby — showcasing attention to detail, visual storytelling and creative problem-solving.</p>
+      </div>
+    </div>
+
+    <div class="strengths reveal">
+      <h3 class="strengths-title">Key strengths</h3>
+      <div class="strengths-grid">
+        <div class="strength-pill"><span>Problem Solving</span><p>Analytical approach to breaking down complex technical challenges.</p></div>
+        <div class="strength-pill"><span>Team Collaboration</span><p>Effective communicator and collaborative member in group projects.</p></div>
+        <div class="strength-pill"><span>Creative Thinking</span><p>Blends technical and creative skills for well-rounded solutions.</p></div>
+        <div class="strength-pill"><span>Quick Learner</span><p>Self-driven — continuously upskills through projects and coursework.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner reveal">
+      <span class="section-tag">// contact</span>
+      <h2 class="contact-title">Let's build something<br>worth logging.</h2>
+      <p class="contact-sub">Open to internships, collaborations, and full-stack projects. Reach out any time.</p>
+
+      <div class="contact-links">
+        <a href="mailto:meyyarasan65@gmail.com" class="contact-link">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2" y="4" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M2.5 5l6.5 5 6.5-5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>meyyarasan65@gmail.com</span>
+        </a>
+        <a href="tel:+919344369514" class="contact-link">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 3h3l1.5 4L6.5 8.5a9 9 0 006 6L14 12.5l4 1.5v3a1.5 1.5 0 01-1.6 1.5A15 15 0 013 4.6 1.5 1.5 0 014 3z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          <span>+91 93443 69514</span>
+        </a>
+        <a href="https://linkedin.com/in/meyyarasan-mohanraj" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.3"/><path d="M6 8v5M6 5.5v.01M9.5 13V8m0 0c0-1 .8-1.5 1.7-1.5S13 7 13 8v5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          <span>linkedin.com/in/meyyarasan-mohanraj</span>
+        </a>
+        <a href="https://github.com/meyyarasan65-dot" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 2a7 7 0 00-2.2 13.6c.35.06.48-.15.48-.34v-1.3c-1.95.42-2.36-.94-2.36-.94-.32-.8-.78-1.02-.78-1.02-.64-.44.05-.43.05-.43.7.05 1.07.72 1.07.72.63 1.07 1.65.76 2.05.58.06-.46.24-.76.44-.93-1.56-.18-3.2-.78-3.2-3.47 0-.77.27-1.4.72-1.9-.07-.18-.31-.9.07-1.87 0 0 .59-.19 1.93.72a6.7 6.7 0 013.5 0c1.34-.91 1.93-.72 1.93-.72.38.97.14 1.69.07 1.87.45.5.72 1.13.72 1.9 0 2.7-1.64 3.29-3.21 3.46.25.22.48.65.48 1.31v1.94c0 .19.13.41.49.34A7 7 0 009 2z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg>
+          <span>github.com/meyyarasan65-dot</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Designed &amp; built by Meyyarasan M</p>
+  <p class="footer-note">Balance carried forward — thanks for reading.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
